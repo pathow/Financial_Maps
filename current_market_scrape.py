@@ -3,7 +3,7 @@ import urllib2
 import sys
 
 
-__author__ = 'patrick'
+__author__ = 'Patrick Howell'
 
 #API_key = 'SqjRioyWHL4APSzRUm_c'
 

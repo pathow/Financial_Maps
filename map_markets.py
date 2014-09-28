@@ -11,7 +11,7 @@ import time
 
 
 
-__author__ = 'patrick'
+__author__ = 'Patrick Howell'
 
 
 markets = current_market_scrape.get_markets_dict()
