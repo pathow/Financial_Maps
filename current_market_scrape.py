@@ -75,10 +75,17 @@ def get_markets_dict():
     return markets
 
 def one_day_by_country(markets):
+    """
 
+    :param markets: Dictionary organized by index
+    :return: Dictionary organized by country
+    """
     countries = {}
 
     for index in markets:
+        if index=='S&P Nifty Index':
+            # No update to Nifty Index since Feb-2013, so skip it
+            continue
         current_country = markets[index]['Country']
         if current_country == 'UK':
             current_country = 'United Kingdom'
